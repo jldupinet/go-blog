@@ -1,8 +1,8 @@
 {
 	"URL": "http://example.com",
-	"Title": "Example GO-Blog Website",
-	"Description": "Some text about your site, keep it fairly short.",
-	"Lang": "en-gb",
-	"Editor": "editor@example.com",
+	"Title": "Dupinet Blog",
+	"Description": "Aventuras de José Luis Dupinet",
+	"Lang": "es-mx",
+	"Editor": "jldupinet@gmail.com",
 	"Webmaster": "webmaster@example.com"
 }
