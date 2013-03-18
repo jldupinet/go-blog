@@ -1,0 +1,16 @@
+<article>
+	<header>
+		<h1><a href="/{{.Slug |html}}" title="{{.Title |html}}">{{.Title |html}}</a></h1>
+	</header>
+	<div>
+		<p>
+			Este es mi primer post!
+		</p>
+	</div>
+	<footer>
+		<time datetime="{{.MachineDate |html}}">Posted on {{.Date |html}}</time> | Tagged: 
+		{{range .Tags}}
+			<a href="/tag/{{.}}">#{{.}}</a>&nbsp;
+		{{end}}
+	</footer>
+</article>
